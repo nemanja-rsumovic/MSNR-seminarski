@@ -1,0 +1,93 @@
+Koliko paradigmi poznajem - toliko vredim
+
+Na osnovu malo dublje analize podataka mozemo primetiti sledece statistike
+Kada grupisemo ljude po tome da li su upoznati sa konceptom programskih paradigmi, i posmatramo prilagodljivost novom programskom jeziku, primecujemo da je lakse upoznati se sa novim programskim jezikom ukoliko znamo sta su programske paradigme
+
+(####Dodati sliku####)
+
+Da li ste upoznati sa konceptom programskih paradigmi?
+Da    2.325000
+Ne    2.733333
+Name: Koliko vam je bilo zahtevno prilagoditi se novom programskom jeziku:
+
+
+
+Znam da nista ne znam / ne znam da nista ne znam
+
+Slicno kada smo grupisali ljude po duzini bavljenja programiranje / broju polozenih ESPB dobijamo skoro linearnu zavisnost u odnosu na upoznavanje sa novim jezikom
+duze programiranje -> lakse upoznavanje sa novim jezikom , vise espb -> lakse upoznavanje sa novim jezikom. Medjutim izuzetak se kod osoba sa najmanje iskustva, odnosno koje subjektivno imaju osecaj da nemaju poteskoca pri ucenju novih programskih jezika sto moze biti posledica dveju stvari : 1. Prazna tabla se najlaske ispisuje, ne postoji naviknutost na neke koncepte, otvoreniji su za sve, lakse se upoznaju sa novim kada nista pre toga ne znaju
+2. Sa druge strane neiskustvo tih osoba moze stvoriti i osecaj da poznaju neki jezik, i ako ga poznaju u manjoj meri nego straije kolege. Starije iskusnije osobe imaju tendenciju da budu vise samokriticne i strozije - znam da nista ne znam, dok mladji manje iskusni bez jasnije velike slike mogu imati predstavu da znaju vise nego sto je zapravo stanje - ne znam da nista znam
+
+
+
+Koliko dugo se bavite programiranjem?
+Manje od 1 godine    2.666667
+1-2 godine           2.909091
+3-4 godine           2.684211
+Više od 4 godine     2.193548
+
+ESPB_cat
+0-60       2.300000
+61-120     2.875000
+121-180    2.333333
+181-240    2.314286
+241-300    2.181818
+
+(#######DODATI SLIKE########)
+
+Vise je bolje
+
+Jasno je i ocigledna zavisnost, sto pokazuju i podaci, izmedju toga koliko cesto ucimo nove jezike i koliko se lako prilagodjavamo novim jezicima. Ljudi koji cesto uce nove jezike lakse savladavaju nove jezike.
+
+(#####DODATI SLIKE#######)
+
+
+I teorija i praksa
+
+"Rad na konkretnim" projektima se pokazuje kao najefikasnija strategija ucenja novog jezika, a sledece dve kategorije su "Zvanicna dokumentacija" i "Knjige i skripte", sto znaci da si i praktican i teorijski rad bitni za dobro savladavanje novog jezika.
+
+(#####DODATI SLIKE#####)
+
+
+ISPRAVLJENE VERZIJE
+--------------------------------------------------------------------------------------
+Koliko paradigmi poznajem – toliko vredim
+
+Na osnovu detaljnije analize prikupljenih podataka mogu se uočiti jasni statistički trendovi. Kada ispitanike grupišemo prema tome da li su upoznati sa konceptom programskih paradigmi i zatim posmatramo njihovu sposobnost prilagođavanja novom programskom jeziku, primećuje se značajna razlika između ove dve grupe.
+
+Rezultati pokazuju da ispitanici koji su upoznati sa konceptom programskih paradigmi u proseku lakše i brže usvajaju novi programski jezik u poređenju sa onima koji nemaju takvo predznanje. Ovakav nalaz ukazuje na to da razumevanje programskih paradigmi predstavlja važan faktor koji olakšava proces učenja i adaptacije na nove tehnologije.
+
+
+SLIKE
+--------------------------------------------------------------------------------------
+Znam da ništa ne znam / ne znam da ništa ne znam
+
+Slično prethodnoj analizi, grupisanjem ispitanika prema dužini bavljenja programiranjem i broju položenih ESPB bodova može se uočiti gotovo linearna zavisnost u odnosu na zahtevnost prilagođavanja novom programskom jeziku. Rezultati pokazuju da duže iskustvo u programiranju, kao i veći broj položenih ESPB bodova, u proseku vodi ka lakšem i bržem upoznavanju sa novim programskim jezicima.
+
+Međutim, zanimljiv izuzetak javlja se kod ispitanika sa najmanje iskustva, koji subjektivno procenjuju da imaju vrlo malo poteškoća prilikom učenja novih programskih jezika. Ovaj fenomen može se objasniti na dva načina.
+
+Prvo, početnici često nemaju ukorenjene navike, obrasce razmišljanja ili vezanost za određene koncepte i paradigme. „Prazna tabla“ se najlakše ispisuje — otvorenost ka novim idejama i odsustvo prethodnih ograničenja može olakšati inicijalno upoznavanje sa novim jezikom.
+
+Sa druge strane, neiskustvo može dovesti i do pogrešne procene sopstvenog znanja. Ispitanici sa manjim iskustvom mogu steći utisak da dobro poznaju određeni programski jezik, iako je njihovo znanje u suštini površno. Iskusniji programeri, nasuprot tome, češće su samokritični i svesni širine i složenosti oblasti, te imaju strože kriterijume za procenu sopstvenog znanja — što se može sažeti u poznatu misao: „znam da ništa ne znam“. Manje iskusni ispitanici, bez jasne šire slike, mogu imati suprotan osećaj — „ne znam da ništa ne znam“.
+
+SLIKE
+--------------------------------------------------------------------------------------
+Više je bolje
+
+Analiza prikupljenih podataka pokazuje jasnu i statistički uočljivu zavisnost između učestalosti učenja novih programskih jezika i zahtevnosti prilagođavanja novom jeziku. Ispitanici koji češće uče nove programske jezike u proseku se lakše i brže prilagođavaju novim tehnologijama u poređenju sa onima koji to čine povremeno ili retko.
+
+Ovakav rezultat sugeriše da redovno izlaganje novim programskim jezicima i konceptima razvija određenu vrstu „učilačke rutine“, koja vremenom smanjuje kognitivni napor potreban za usvajanje novih znanja. Drugim rečima, što se pojedinac češće susreće sa procesom učenja novih jezika, to taj proces postaje efikasniji i manje zahtevan.
+
+SLIKE
+--------------------------------------------------------------------------------------
+
+I teorija i praksa
+
+Rezultati analize strategija učenja pokazuju da se rad na konkretnim projektima izdvaja kao najefikasnija strategija za učenje novog programskog jezika. Ispitanici koji su ovu strategiju naveli kao jednu od korišćenih u proseku su iskazivali manju zahtevnost prilagođavanja novom jeziku u odnosu na ostale strategije.
+
+Pored praktičnog rada, visoko su rangirane i strategije koje podrazumevaju teorijski pristup učenju, pre svega zvanična dokumentacija, kao i knjige i skripte. Ovakav rezultat ukazuje na to da uspešno savladavanje novog programskog jezika zahteva kombinaciju teorijskog razumevanja i praktične primene. Teorija pruža osnovu i strukturu znanja, dok praksa omogućava njegovo učvršćivanje i primenu u realnim problemima.
+
+SLIKE
+
+
+
