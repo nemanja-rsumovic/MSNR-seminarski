@@ -1,0 +1,23 @@
+\babel@toc {serbian}{}\relax 
+\contentsline {section}{\numberline {1}Uvod}{2}{section.1}%
+\contentsline {section}{\numberline {2}Izazovi u učenju programskih jezika}{2}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Uticaj programskih paradigmi na proces učenja}{2}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}Uloga stila učenja i izvora znanja}{2}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.3}Završna razmatranja}{2}{subsection.2.3}%
+\contentsline {section}{\numberline {3}Analiza ankete}{3}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Pregled osnovnih podataka o ispitanicima}{3}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Strategije učenja i njihova efikasnost}{4}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.3}Barijere i izazovi u učenju novih programskih jezika}{5}{subsection.3.3}%
+\contentsline {subsection}{\numberline {3.4}Statistička analiza}{6}{subsection.3.4}%
+\contentsline {subsubsection}{\numberline {3.4.1}Koliko paradigmi poznajem – toliko vredim}{6}{subsubsection.3.4.1}%
+\contentsline {subsubsection}{\numberline {3.4.2}Znam da ništa ne znam / Ne znam da ništa ne znam}{6}{subsubsection.3.4.2}%
+\contentsline {subsubsection}{\numberline {3.4.3}Više je bolje}{7}{subsubsection.3.4.3}%
+\contentsline {subsubsection}{\numberline {3.4.4}I teorija i praksa}{8}{subsubsection.3.4.4}%
+\contentsline {section}{\numberline {4}Informacije prikupljene pitanjima otvorenog karaktera}{8}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Razumevanje paradigmi i algoritama je važnije od samog jezika}{9}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}Intenzivno pisanje koda kao osnovni mehanizam učenja}{9}{subsection.4.2}%
+\contentsline {subsection}{\numberline {4.3}Učenje kroz poznate zadatke u novom jeziku}{9}{subsection.4.3}%
+\contentsline {subsection}{\numberline {4.4}Ne postoji univerzalna strategija učenja}{9}{subsection.4.4}%
+\contentsline {subsection}{\numberline {4.5}Strpljenje, vreme i kontinuitet kao ključni faktori}{9}{subsection.4.5}%
+\contentsline {section}{\numberline {5}Zaključak}{9}{section.5}%
+\contentsline {section}{Literatura}{10}{section.5}%

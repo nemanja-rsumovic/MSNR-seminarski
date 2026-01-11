@@ -1,0 +1,50 @@
+\begin{thebibliography}{1}
+
+\bibitem{algorithms}
+Thomas~H. Cormen, Charles~E. Leiserson, Ronald~L. Rivest, and Clifford Stein.
+\newblock {\em Introduction to Algorithms}.
+\newblock MIT Press, 4th edition, 2022.
+
+\bibitem{freeman2014active}
+Scott Freeman, Sarah~L. Eddy, Miles McDonough, Michelle~K. Smith, Nnadozie
+  Okoroafor, Hannah Jordt, and Mary~Pat Wenderoth.
+\newblock Active learning increases student performance in science,
+  engineering, and mathematics.
+\newblock {\em Proceedings of the National Academy of Sciences},
+  111(23):8410--8415, 2014.
+\newblock Available at:
+  \url{https://www.pnas.org/doi/pdf/10.1073/pnas.1319030111}.
+
+\bibitem{programming_difficulties}
+Rozita Kadar, Naemah Abdul~Wahab, Jamal Othman, Maisurah Shamsuddin, and
+  Siti~Balqis Mahlan.
+\newblock A study of difficulties in teaching and learning programming: A
+  systematic literature review.
+\newblock {\em International Journal of Academic Research in Progressive
+  Education and Development}, 10(3):591--605, 2021.
+
+\bibitem{lahtinen2005difficulties}
+Essi Lahtinen, Kirsti Ala-Mutka, and Hannu-Matti J{\"a}rvinen.
+\newblock A study of the difficulties of novice programmers.
+\newblock {\em Proceedings of the 10th Annual SIGCSE Conference on Innovation
+  and Technology in Computer Science Education (ITiCSE)}, pages 14--18, 2005.
+\newblock Available at: \url{https://dl.acm.org/doi/10.1145/1067445.1067453}.
+
+\bibitem{mdnlearning}
+{Mozilla Developer Network}.
+\newblock Learn web development.
+\newblock Accessed: 2025-12-25.
+
+\bibitem{robins2003learning}
+Anthony Robins, Janet Rountree, and Nathan Rountree.
+\newblock Learning and teaching programming: A review and discussion.
+\newblock {\em Computer Science Education}, 13(2):137--172, 2003.
+\newblock Available at:
+  \url{https://www.researchgate.net/publication/200085837_Learning_and_Teaching_Programming_A_Review_and_Discussion}.
+
+\bibitem{stackoverflow_survey}
+{Stack Overflow}.
+\newblock Stack overflow developer survey 2023, 2023.
+\newblock Accessed: 2025-12-25.
+
+\end{thebibliography}

@@ -10,6 +10,9 @@
 \usepackage{array}
 \usepackage{booktabs}
 \usepackage{titling}
+\usepackage{subcaption} 
+\usepackage[a4paper, top=2cm, bottom=2cm, left=2.5cm, right=2.5cm]{geometry}
+
 
 
 \usepackage[english,serbian]{babel}
@@ -77,7 +80,7 @@
 	\maketitle
 	
 	\abstract{
-		Ovaj rad analizira izazove sa kojima se suočavaju kako početnici, tako i iskusni programeri u procesu učenja novih programskih jezika i paradigmi. Istraživanje je sprovedeno putem anketnog upitnika na uzorku od 95 ispitanika, pretežno studenata sa višegodišnjim iskustvom u programiranju, stečenim kroz akademsko obrazovanje, profesionalni rad i samostalno učenje. Fokus rada je na ispitivanju povezanosti izmedju godina iskustva, poznavanja većeg broja programskih jezika i paradigmi, kao i subjektivnih poteškoća pri savladavanju nove programske paradigme. Raznolikost ispitanika u pogledu iskustva, obrazovanja i pristupa učenju omogućava sagledavanje istraživanog problema iz više perspektiva, čime se dodatno povećava validnost donetih zaključaka.
+		Ovaj rad analizira izazove sa kojima se suočavaju kako početnici, tako i iskusni programeri u procesu učenja novih programskih jezika i paradigmi. Istraživanje je sprovedeno putem anketnog upitnika na uzorku od 95 ispitanika, pretežno studenata sa višegodišnjim iskustvom u programiranju, stečenim kroz akademsko obrazovanje, profesionalni rad i samostalno učenje. Fokus rada je na ispitivanju povezanosti između godina iskustva, poznavanja većeg broja programskih jezika i paradigmi, kao i subjektivnih poteškoća pri savladavanju nove programske paradigme. Raznolikost ispitanika u pogledu iskustva, obrazovanja i pristupa učenju omogućava sagledavanje istraživanog problema iz više perspektiva, čime se dodatno povećava validnost donetih zaključaka.
 	}
 	
 	\tableofcontents
@@ -93,7 +96,22 @@
 	
 	Analiza rezultata ankete ukazuje na to da se kao jedan od ključnih izazova izdvaja učenje programskog jezika koji pripada novoj paradigmi, kao i kvalitet i dostupnost izvora za učenje. Ovi, ali i drugi identifikovani faktori, biće detaljnije ispitani u nastavku rada, sa ciljem da se pruži jasniji uvid u složenost procesa učenja programskih jezika i ponude smernice za efikasnije pristupe učenju u akademskom i samostalnom okruženju.
 	
-	\section{Pregled osnovnih podataka o ispitanicima}
+		
+	\section{Izazovi u učenju programskih jezika}
+	Učenje programskih jezika predstavlja zahtevan proces koji podrazumeva razvoj sposobnosti analize problema, apstraktnog razmišljanja i razumevanja toka izvršavanja programa. Mnogi učenici, naročito početnici, pristupaju programiranju bez prethodnog planiranja i analize zadatka, fokusirajući se na pojedinačne linije koda umesto na celokupnu strukturu rešenja. Takav pristup često dovodi do nerazumevanja osnovnih programskih koncepata i otežava identifikaciju i ispravljanje grešaka, zbog čega se sintaksni problemi često javljaju kao posledica dubljih konceptualnih poteškoća\cite{lahtinen2005difficulties}.
+	\subsection{Uticaj programskih paradigmi na proces učenja}
+	Poseban izazov u učenju novih programskih jezika predstavlja savladavanje jezika koji pripadaju drugačijoj programskoj paradigmi. Promena paradigme zahteva prilagođavanje postojećih i usvajanje novih načina razmišljanja o strukturi programa i rešavanju problema. Ovaj proces ne zavisi isključivo od tehničkog znanja ili iskustva, već od sposobnosti da se apstraktni koncepti povežu sa prethodnim znanjem. Zbog toga se problemi u učenju novih paradigmi javljaju i kod iskusnijih programera, a ne samo kod početnika.
+	\subsection{Uloga stila učenja i izvora znanja}
+	Na uspešnost učenja programskih jezika značajno utiče i stil učenja, kao i kvalitet korišćenih izvora. Pasivni oblici učenja, poput oslanjanja isključivo na teorijska predavanja ili gotove primere, često nisu dovoljni za razvoj dubljeg razumevanja\cite{freeman2014active}.
+	Suprotno tome, praktičan rad, rešavanje konkretnih problema i eksperimentisanje sa kodom omogućavaju postepeno građenje sigurnosti i povezivanje teorijskih znanja sa njihovom primenom. Kvalitetna dokumentacija, jasni primeri i dostupnost praktičnih zadataka dodatno olakšavaju proces usvajanja novih programskih koncepata \cite{stackoverflow_survey}.
+	\subsection{Završna razmatranja}
+	Iako se poteškoće u učenju programskih jezika mogu ispoljavati na različite načine, zajedničko im je to što ne proističu isključivo iz same složenosti jezika, već iz kombinacije kognitivnih zahteva, prethodnog znanja i načina učenja. Razumevanje ovih faktora omogućava sagledavanje učenja programiranja kao postepenog procesa u kome se tehničke veštine razvijaju uporedno sa sposobnošću apstraktnog razmišljanja i rešavanja problema. Upravo iz tog razloga, identifikovanje obrazaca u izazovima i strategijama učenja, na osnovu većeg broja ispitanika, predstavlja važan korak ka unapređenju nastavnih pristupa i efikasnijem usvajanju novih programskih jezika i paradigmi \cite{programming_difficulties}.
+	
+	\newpage
+	\section{Analiza ankete}
+	U nastavku će biti prikazana analiza sprovedene ankete, identifikovani glavni problemi, kao i preporuke za rešavanje tih problema. Anketu je popunilo 95 ispitanika. Dobijeni podaci omogućavaju detaljniji uvid u navike ispitanika prilikom učenja novih programskih jezika, kao i u njihove subjektivne procene efikasnosti različitih pristupa. Analiza rezultata pruža osnov za razumevanje obrazaca ponašanja i uočavanje faktora koji mogu značajno uticati na uspešnost procesa učenja.
+	
+	\subsection{Pregled osnovnih podataka o ispitanicima}
 	
 	Većinu ispitanika čine studenti, dok je znatno manji broj onih koji su završili osnovne, master ili doktorske studije. Time se uzorak primarno oslanja na populaciju koja je aktivno uključena u proces učenja i akademskog usavršavanja, što je u skladu sa temom istraživanja. Među studentima postoji raznolikost u pogledu broja položenih ESPB bodova, što ukazuje na prisustvo ispitanika iz različitih faza studiranja, od početnih godina do završnih faza studija. Grafik odnosa broja ESBP poena među ispitanicima se može videti na slici \ref{fig:espb}.
 	
@@ -107,7 +125,7 @@
 	Analiza obrazovne strukture ispitanika pokazuje da najveći deo uzorka čine studenti Matematičkog fakulteta (slika \ref{fig:fakulteti}), dok su studenti drugih tehničkih i srodnih fakulteta zastupljeni u manjem broju. Takva raspodela ukazuje da je istraživanje u najvećoj meri obuhvatilo populaciju koja je tokom studija kontinuirano u kontaktu sa programiranjem i srodnim računarskim disciplinama. Ovo doprinosi tome da prikupljeni podaci odražavaju iskustva ispitanika koji se aktivno bave učenjem programskih jezika, što je u skladu sa ciljevima istraživanja i temom seminarskog rada. 
 	
 	
-	\begin{figure}[h!]
+	\begin{figure}[H]
 		\centering
 		\hspace*{-1.5cm}
 		\includegraphics[scale=0.5]{fakulteti.png}
@@ -116,35 +134,22 @@
 	\end{figure}
 	
 	
-	Kada je u pitanju iskustvo u programiranju, rezultati pokazuju da većina ispitanika ima višegodišnje iskustvo, pri čemu najveći deo navodi da se programiranjem bavi duže od četiri godine. Manji broj ispitanika ima između jedne i četiri godine iskustva, dok je najmanje onih koji se programiranjem bave kraće od jedne godine. Ovakva struktura uzorka omogućava analizu procesa učenja novih programskih jezika iz perspektive ispitanika koji već poseduju značajno prethodno znanje i iskustvo. Grafik odnosa godina isustva među ispitanicima se može uočiti na slici \ref{fig:programiranje}.
+	Kada je u pitanju iskustvo u programiranju, rezultati pokazuju da većina ispitanika ima višegodišnje iskustvo, pri čemu najveći deo navodi da se programiranjem bavi duže od četiri godine. Manji broj ispitanika ima između jedne i četiri godine iskustva, dok je najmanje onih koji se programiranjem bave kraće od jedne godine. Ovakva struktura uzorka omogućava analizu procesa učenja novih programskih jezika iz perspektive ispitanika koji već poseduju značajno prethodno znanje i iskustvo. Grafik odnosa godina iskustva među ispitanicima se može uočiti na slici \ref{fig:programiranje}.
 	
 	
 	
-	\begin{figure}[h!]
+	\begin{figure}[H]
 		\centering
 		\includegraphics[scale=0.8]{programiranje.png}
 		\caption{Godine iskustva}
 		\label{fig:programiranje}
 	\end{figure}
 	
-	\section{Izazovi u učenju programskih jezika}
-	Učenje programskih jezika predstavlja zahtevan proces koji podrazumeva razvoj sposobnosti analize problema, apstraktnog razmišljanja i razumevanja toka izvršavanja programa. Mnogi učenici, naročito početnici, pristupaju programiranju bez prethodnog planiranja i analize zadatka, fokusirajući se na pojedinačne linije koda umesto na celokupnu strukturu rešenja. Takav pristup često dovodi do nerazumevanja osnovnih programskih koncepata i otežava identifikaciju i ispravljanje grešaka, zbog čega se sintaksni problemi često javljaju kao posledica dubljih konceptualnih poteškoća\cite{lahtinen2005difficulties}.
-	\subsection{Uticaj programskih paradigmi na proces učenja}
-	Poseban izazov u učenju novih programskih jezika predstavlja savladavanje jezika koji pripadaju drugačijoj programskoj paradigmi. Promena paradigme zahteva prilagođavanje postojećih i usvajanje novih načina razmišljanja o strukturi programa i rešavanju problema. Ovaj proces ne zavisi isključivo od tehničkog znanja ili iskustva, već od sposobnosti da se apstraktni koncepti povežu sa prethodnim znanjem. Zbog toga se problemi u učenju novih paradigmi javljaju i kod iskusnijih programera, a ne samo kod početnika.
-	\subsection{Uloga stila učenja i izvora znanja}
-	Na uspešnost učenja programskih jezika značajno utiče i stil učenja, kao i kvalitet korišćenih izvora. Pasivni oblici učenja, poput oslanjanja isključivo na teorijska predavanja ili gotove primere, često nisu dovoljni za razvoj dubljeg razumevanja\cite{freeman2014active}.
-	Suprotno tome, praktičan rad, rešavanje konkretnih problema i eksperimentisanje sa kodom omogućavaju postepeno građenje sigurnosti i povezivanje teorijskih znanja sa njihovom primenom. Kvalitetna dokumentacija, jasni primeri i dostupnost praktičnih zadataka dodatno olakšavaju proces usvajanja novih programskih koncepata \cite{stackoverflow_survey}.
-	\subsection{Završna razmatranja}
-	Iako se poteškoće u učenju programskih jezika mogu ispoljavati na različite načine, zajedničko im je to što ne proističu isključivo iz same složenosti jezika, već iz kombinacije kognitivnih zahteva, prethodnog znanja i načina učenja. Razumevanje ovih faktora omogućava sagledavanje učenja programiranja kao postepenog procesa u kome se tehničke veštine razvijaju uporedno sa sposobnošću apstraktnog razmišljanja i rešavanja problema. Upravo iz tog razloga, identifikovanje obrazaca u izazovima i strategijama učenja, na osnovu većeg broja ispitanika, predstavlja važan korak ka unapređenju nastavnih pristupa i efikasnijem usvajanju novih programskih jezika i paradigmi \cite{programming_difficulties}.
-	
-	
-	\section{Analiza ankete}
-	U nastavku će biti prikazana analiza sprovedene ankete, identifikovani glavni problemi, kao i preporuke za rešavanje tih problema. Anketu je popunilo 95 ispitanika. Dobijeni podaci omogućavaju detaljniji uvid u navike ispitanika prilikom učenja novih programskih jezika, kao i u njihove subjektivne procene efikasnosti različitih pristupa. Analiza rezultata pruža osnov za razumevanje obrazaca ponašanja i uočavanje faktora koji mogu značajno uticati na uspešnost procesa učenja.
 	
 	\subsection{Strategije učenja i njihova efikasnost}
 	Rezultati ankete ukazuju da ispitanici preferiraju aktivne strategije učenja, odnosno pristupe koji podrazumevaju neposrednu primenu znanja kroz kodiranje i rešavanje problema. Kada posmatramo koje strategije ispitanici najčešće koriste, dominiraju online resursi i samostalno istraživanje: online kursevi (70), zvanična dokumentacija (62), knjige i skripte (56) i čitanje tuđeg koda (54), dok su male samostalne vežbe (42) i rad na konkretnim projektima (41) takođe vrlo zastupljeni. Sve strategije koje su ispitanici naveli prikazane su na slici \ref{fig:strategije}.
 	
-	\begin{figure}[h!]
+	\begin{figure}[H]
 		\hspace*{-1cm}
 		\includegraphics[scale=0.7]{strategije.png}
 		\caption{Strategije koje se koriste prilikom učenja novog jezika}
@@ -163,7 +168,7 @@
 	\end{itemize}
 	Ovi navodi su u skladu sa nalazom da ispitanici prepoznaju značaj iskustvenog učenja, gde se znanje proverava kroz implementaciju, što vremenom povećava sigurnost i sposobnost samostalnog rešavanja problema.
 	
-	\begin{figure}[h!]
+	\begin{figure}[H]
 		\centering
 		\includegraphics[scale=0.8]{strategije2.png}
 		\caption{Najefikasnije strategije koje se koriste prilikom učenja novog jezika}
@@ -173,13 +178,17 @@
 	
 	Iako se u odgovorima jasno vidi sklonost ka učenju kroz praktičan rad i izradu projekata, prilikom procene najefikasnije strategije ne dolazi do jasne dominacije nijednog pristupa. Umesto toga, ispitanici su se opredeljivali za različite metode učenja, pri čemu su online kursevi, samostalne vežbe, rad na projektima i korišćenje literature zastupljeni u sličnom obimu. Ovakav nalaz potvrđuje da efikasnost strategije nije apsolutna kategorija, već zavisi od faze učenja, tipa programskog jezika i individualnog načina usvajanja znanja, zbog čega se različite strategije mogu smatrati podjednako korisnim u različitim okolnostima što je prikazano na slici \ref{fig:strategije2}.
 	
+
+
+
 	\subsection{Barijere i izazovi u učenju novih programskih jezika}
 	Da bi se barijere sagledale preciznije, analizirani su različiti aspekti prilagođavanja novom jeziku (sintaksa, paradigma, tipovi, alati/okruženje, ekosistem, dokumentacija). Kada se za svakog ispitanika identifikuje aspekt koji je dobio najveću ocenu težine, dobija se vrlo informativna slika dominantnih prepreka.
 	
-	Najčešće isticana „najveća barijera” je:
+	Najčešće isticane „najveća barijera” je:
 	\begin{itemize}
 		\item Promena programske paradigme
 		\item Alati i razvojno okruženje
+		\item Kvalitet ili dostupnost dokumentacije
 	\end{itemize}
 	Dok su dokumentacija, sintaksa, ekosistem i tipovi navedeni kao najmanja prepreka.
 	
@@ -212,33 +221,82 @@
 	\end{table}
 	
 	
-	Na osnovu prikazanih rezultata u tabeli \ref{tab:faktori} dat je pregled faktora koji mogu predstavljati prepreku u učenju novih programskih jezika, pri čemu su ispitanici ocenili stepen težine svakog od navedenih aspekata na skali od 1 do 5 (1 ozna;ava \textit{„nije predstavljalo problem”}, dok 5 označava \textit{„veoma je predstavljalo problem”}).
+	Na osnovu prikazanih rezultata u tabeli \ref{tab:faktori} dat je pregled faktora koji mogu predstavljati prepreku u učenju novih programskih jezika, pri čemu su ispitanici ocenili stepen težine svakog od navedenih aspekata na skali od 1 do 5 (1 označava \textit{„nije predstavljalo problem”}, dok 5 označava \textit{„veoma je predstavljalo problem”}).
 	
 	\subsection{Statistička analiza}
-	Na osnovu detaljnije analize prikupljenih podataka mogu se uočiti jasni statistički trendovi. Kada ispitanike grupišemo prema tome da li su upoznati sa konceptom programskih paradigmi i zatim posmatramo njihovu sposobnost prilagođavanja novom programskom jeziku, primećuje se značajna razlika između ove dve grupe.
-	
-	Rezultati pokazuju da ispitanici koji su upoznati sa konceptom programskih paradigmi u proseku lakše i brže usvajaju novi programski jezik u poređenju sa onima koji nemaju takvo predznanje. Ovakav nalaz ukazuje na to da razumevanje programskih paradigmi predstavlja važan faktor koji olakšava proces učenja i adaptacije na nove tehnologije.
 
-	
-	Slično prethodnoj analizi, grupisanjem ispitanika prema dužini bavljenja programiranjem i broju položenih ESPB bodova može se uočiti gotovo linearna zavisnost u odnosu na zahtevnost prilagođavanja novom programskom jeziku. Rezultati pokazuju da duže iskustvo u programiranju, kao i veći broj položenih ESPB bodova, u proseku vodi ka lakšem i bržem upoznavanju sa novim programskim jezicima.
-	
-	Međutim, zanimljiv izuzetak javlja se kod ispitanika sa najmanje iskustva, koji subjektivno procenjuju da nemaju mnogo poteškoća prilikom učenja novih programskih jezika. Ovaj fenomen može se objasniti na dva načina. Prvo, početnici često nemaju ukorenjene navike, obrasce razmišljanja ili vezanost za određene koncepte i paradigme. Otvorenost ka novim idejama i odsustvo prethodnih ograničenja može olakšati inicijalno upoznavanje sa novim jezikom. Sa druge strane, neiskustvo može dovesti i do pogrešne procene sopstvenog znanja. Ispitanici sa manjim iskustvom mogu steći utisak da dobro poznaju određeni programski jezik, iako je njihovo znanje u suštini površno. Iskusniji programeri, nasuprot tome, češće su samokritični i svesni širine i složenosti oblasti, te imaju strože kriterijume za procenu sopstvenog znanja. Ovo je prikazano na slici \ref{fig:iskustvo}.
-	
-		\begin{figure}[h!]
-		\centering
-		\includegraphics[scale=0.5]{zahtevnost_iskustvo.png}
-		\caption{Prosečna zahtevnost prilagođavanja u odnosu na iskustvo}
-		\label{fig:iskustvo}
-	\end{figure}
-	
-	Analiza prikupljenih podataka pokazuje jasnu i statistički uočljivu zavisnost između učestalosti učenja novih programskih jezika i zahtevnosti prilagođavanja novom jeziku. Ispitanici koji češće uče nove programske jezike u proseku se lakše i brže prilagođavaju novim tehnologijama u poređenju sa onima koji to čine povremeno ili retko.
-	
-	Ovakav rezultat sugeriše da redovno izlaganje novim programskim jezicima i konceptima razvija određenu vrstu „učilačke rutine“, koja vremenom smanjuje kognitivni napor potreban za usvajanje novih znanja. Drugim rečima, što se pojedinac češće susreće sa procesom učenja novih jezika, to taj proces postaje efikasniji i manje zahtevan.
-	
-	Rezultati analize strategija učenja pokazuju da se rad na konkretnim projektima izdvaja kao najefikasnija strategija za učenje novog programskog jezika. Ispitanici koji su ovu strategiju naveli kao jednu od korišćenih u proseku su iskazivali manju zahtevnost prilagođavanja novom jeziku u odnosu na ostale strategije.
-	
-	Pored praktičnog rada, visoko su rangirane i strategije koje podrazumevaju teorijski pristup učenju, pre svega zvanična dokumentacija, kao i knjige i skripte. Ovakav rezultat ukazuje na to da uspešno savladavanje novog programskog jezika zahteva kombinaciju teorijskog razumevanja i praktične primene. Teorija pruža osnovu i strukturu znanja, dok praksa omogućava njegovo učvršćivanje i primenu u realnim problemima.
-	
+\subsubsection{Koliko paradigmi poznajem – toliko vredim}
+
+Na osnovu detaljnije analize prikupljenih podataka mogu se uočiti jasni statistički trendovi. Kada ispitanike grupišemo prema tome da li su upoznati sa konceptom programskih paradigmi i zatim posmatramo njihovu sposobnost prilagođavanja novom programskom jeziku, primećuje se značajna razlika između ove dve grupe.
+
+Rezultati pokazuju da ispitanici koji su upoznati sa konceptom programskih paradigmi u proseku lakše i brže usvajaju novi programski jezik u poređenju sa onima koji nemaju takvo predznanje. Ovakav nalaz ukazuje na to da razumevanje programskih paradigmi predstavlja važan faktor koji olakšava proces učenja i adaptacije na nove tehnologije.
+
+\begin{figure}[h!]
+    \centering
+    \includegraphics[scale=0.5]{paradigme_prilagodjavanje.png}
+    \caption{Uticaj poznavanja programskih paradigmi na prilagođavanje novom jeziku}
+    \label{fig:paradigme}
+\end{figure}
+
+% ---------------------------------------------------------
+
+\subsubsection{Znam da ništa ne znam / Ne znam da ništa ne znam}
+
+Slično prethodnoj analizi, grupisanjem ispitanika prema dužini bavljenja programiranjem i broju položenih ESPB bodova može se uočiti gotovo linearna zavisnost u odnosu na zahtevnost prilagođavanja novom programskom jeziku. Rezultati pokazuju da duže iskustvo u programiranju, kao i veći broj položenih ESPB bodova, u proseku vodi ka lakšem i bržem upoznavanju sa novim programskim jezicima.
+
+Međutim, zanimljiv izuzetak javlja se kod ispitanika sa najmanje iskustva, koji subjektivno procenjuju da imaju vrlo malo poteškoća prilikom učenja novih programskih jezika. Ovaj fenomen može se objasniti na dva načina.
+
+Prvo, početnici često nemaju ukorenjene navike, obrasce razmišljanja ili vezanost za određene koncepte i paradigme. „Prazna tabla“ se najlakše ispisuje — otvorenost ka novim idejama i odsustvo prethodnih ograničenja može olakšati inicijalno upoznavanje sa novim jezikom.
+
+Sa druge strane, neiskustvo može dovesti i do pogrešne procene sopstvenog znanja. Ispitanici sa manjim iskustvom mogu steći utisak da dobro poznaju određeni programski jezik, iako je njihovo znanje u suštini površno. Iskusniji programeri, nasuprot tome, češće su samokritični i svesni širine i složenosti oblasti, te imaju strože kriterijume za procenu sopstvenog znanja — što se može sažeti u poznatu misao: „znam da ništa ne znam“. Manje iskusni ispitanici, bez jasne šire slike, mogu imati suprotan osećaj — „ne znam da ništa ne znam“.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale=0.5]{iskustvo_prilagodjavanje_stat.png}
+    \caption{Odnos iskustva i subjektivne zahtevnosti učenja novog jezika}
+    \label{fig:iskustvo}
+\end{figure}
+
+% Slika 2: ESPB
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale=0.5]{espb_prilagodjavanje_stat.png}
+    \caption{Odnos broja položenih ESPB i subjektivne zahtevnosti učenja novog jezika}
+    \label{fig:espb}
+\end{figure}
+
+
+% ---------------------------------------------------------
+
+\subsubsection{Više je bolje}
+
+Analiza prikupljenih podataka pokazuje jasnu i statistički uočljivu zavisnost između učestalosti učenja novih programskih jezika i zahtevnosti prilagođavanja novom jeziku. Ispitanici koji češće uče nove programske jezike u proseku se lakše i brže prilagođavaju novim tehnologijama u poređenju sa onima koji to čine povremeno ili retko.
+
+Ovakav rezultat sugeriše da redovno izlaganje novim programskim jezicima i konceptima razvija određenu vrstu „učilačke rutine“, koja vremenom smanjuje kognitivni napor potreban za usvajanje novih znanja. Drugim rečima, što se pojedinac češće susreće sa procesom učenja novih jezika, to taj proces postaje efikasniji i manje zahtevan.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale=0.5]{ucestalost_ucenja.png}
+    \caption{Uticaj učestalosti učenja novih jezika na prilagođavanje}
+    \label{fig:ucestalost}
+\end{figure}
+
+% ---------------------------------------------------------
+
+\subsubsection{I teorija i praksa}
+
+Rezultati analize strategija učenja pokazuju da se rad na konkretnim projektima izdvaja kao najefikasnija strategija za učenje novog programskog jezika. Ispitanici koji su ovu strategiju naveli kao jednu od korišćenih u proseku su iskazivali manju zahtevnost prilagođavanja novom jeziku u odnosu na ostale strategije.
+
+Pored praktičnog rada, visoko su rangirane i strategije koje podrazumevaju teorijski pristup učenju, pre svega zvanična dokumentacija, kao i knjige i skripte. Ovakav rezultat ukazuje na to da uspešno savladavanje novog programskog jezika zahteva kombinaciju teorijskog razumevanja i praktične primene. Teorija pruža osnovu i strukturu znanja, dok praksa omogućava njegovo učvršćivanje i primenu u realnim problemima.
+\begin{figure}[h!]
+    \centering
+    \includegraphics[scale=0.5]{strategije_ucenja_stat.png}
+    \caption{Uticaj različitih strategija učenja na uspešnost savladavanja jezika}
+    \label{fig:strategije}
+\end{figure}
+
+
+
 
 	
 	\section{Informacije prikupljene pitanjima otvorenog karaktera}
