@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2025.1.26)  11 JAN 2026 13:39
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2025.1.26)  12 JAN 2026 20:42
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -733,15 +733,15 @@ adavanja_Baranin_Djekic_Magenhajm_Rsumovic.toc'.
 {C:/Users/Nemanja/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
 
 [2]
-<espb.png, id=142, 291.33844pt x 158.84344pt>
-File: espb.png Graphic file (type png)
-<use espb.png>
-Package pdftex.def Info: espb.png  used on input line 120.
+<slike/espb.png, id=142, 291.33844pt x 158.84344pt>
+File: slike/espb.png Graphic file (type png)
+<use slike/espb.png>
+Package pdftex.def Info: slike/espb.png  used on input line 120.
 (pdftex.def)             Requested size: 233.07106pt x 127.07492pt.
-<fakulteti.png, id=145, 629.35126pt x 364.36125pt>
-File: fakulteti.png Graphic file (type png)
-<use fakulteti.png>
-Package pdftex.def Info: fakulteti.png  used on input line 131.
+<slike/fakulteti.png, id=145, 629.35126pt x 364.36125pt>
+File: slike/fakulteti.png Graphic file (type png)
+<use slike/fakulteti.png>
+Package pdftex.def Info: slike/fakulteti.png  used on input line 131.
 (pdftex.def)             Requested size: 314.67485pt x 182.18018pt.
 
 Overfull \hbox (3.29686pt too wide) in paragraph at lines 137--138
@@ -749,37 +749,37 @@ Overfull \hbox (3.29686pt too wide) in paragraph at lines 137--138
 ti po-ka-zu-ju da ve^^Acina is-pi-ta-ni-ka ima vi^^Gsegodi^^Gsnje
  []
 
-<programiranje.png, id=147, 261.97874pt x 173.14688pt>
-File: programiranje.png Graphic file (type png)
-<use programiranje.png>
-Package pdftex.def Info: programiranje.png  used on input line 143.
+<slike/programiranje.png, id=147, 261.97874pt x 173.14688pt>
+File: slike/programiranje.png Graphic file (type png)
+<use slike/programiranje.png>
+Package pdftex.def Info: slike/programiranje.png  used on input line 143.
 (pdftex.def)             Requested size: 209.58327pt x 138.51768pt.
 
 
-[3 <./espb.png> <./fakulteti.png>]
-<strategije.png, id=159, 554.07pt x 221.32687pt>
-File: strategije.png Graphic file (type png)
-<use strategije.png>
-Package pdftex.def Info: strategije.png  used on input line 154.
+[3 <./slike/espb.png> <./slike/fakulteti.png>]
+<slike/strategije.png, id=159, 554.07pt x 221.32687pt>
+File: slike/strategije.png Graphic file (type png)
+<use slike/strategije.png>
+Package pdftex.def Info: slike/strategije.png  used on input line 154.
 (pdftex.def)             Requested size: 387.84636pt x 154.92773pt.
-<strategije2.png, id=161, 327.47343pt x 167.12437pt>
-File: strategije2.png Graphic file (type png)
-<use strategije2.png>
-Package pdftex.def Info: strategije2.png  used on input line 173.
+<slike/strategije2.png, id=161, 327.47343pt x 167.12437pt>
+File: slike/strategije2.png Graphic file (type png)
+<use slike/strategije2.png>
+Package pdftex.def Info: slike/strategije2.png  used on input line 173.
 (pdftex.def)             Requested size: 261.97911pt x 133.69966pt.
 
 
-[4 <./programiranje.png> <./strategije.png>]
+[4 <./slike/programiranje.png> <./slike/strategije.png>]
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <7> on input line 203.
 
 
-[5 <./strategije2.png>]
-<paradigme_prilagodjavanje.png, id=182, 470.7186pt x 338.7054pt>
-File: paradigme_prilagodjavanje.png Graphic file (type png)
-<use paradigme_prilagodjavanje.png>
-Package pdftex.def Info: paradigme_prilagodjavanje.png  used on input line 236.
-
+[5 <./slike/strategije2.png>]
+<slike/paradigme_prilagodjavanje.png, id=182, 470.7186pt x 338.7054pt>
+File: slike/paradigme_prilagodjavanje.png Graphic file (type png)
+<use slike/paradigme_prilagodjavanje.png>
+Package pdftex.def Info: slike/paradigme_prilagodjavanje.png  used on input lin
+e 236.
 (pdftex.def)             Requested size: 235.35872pt x 169.35228pt.
 
 Overfull \hbox (4.66751pt too wide) in paragraph at lines 245--246
@@ -788,37 +788,39 @@ ar-na za-vi-snost u od-no-su na za-htev-nost prilago[]\OT1/cmr/m/n/9 d\T2A/cmr/
 m/n/9 avanja
  []
 
-<iskustvo_prilagodjavanje_stat.png, id=183, 570.933pt x 353.1594pt>
-File: iskustvo_prilagodjavanje_stat.png Graphic file (type png)
-<use iskustvo_prilagodjavanje_stat.png>
-Package pdftex.def Info: iskustvo_prilagodjavanje_stat.png  used on input line 
-255.
+<slike/iskustvo_prilagodjavanje_stat.png, id=183, 570.933pt x 353.1594pt>
+File: slike/iskustvo_prilagodjavanje_stat.png Graphic file (type png)
+<use slike/iskustvo_prilagodjavanje_stat.png>
+Package pdftex.def Info: slike/iskustvo_prilagodjavanje_stat.png  used on input
+ line 255.
 (pdftex.def)             Requested size: 285.46579pt x 176.57925pt.
 
 
-[6 <./paradigme_prilagodjavanje.png>]
-<espb_prilagodjavanje_stat.png, id=192, 456.9873pt x 338.7054pt>
-File: espb_prilagodjavanje_stat.png Graphic file (type png)
-<use espb_prilagodjavanje_stat.png>
-Package pdftex.def Info: espb_prilagodjavanje_stat.png  used on input line 263.
-
+[6 <./slike/paradigme_prilagodjavanje.png>]
+<slike/espb_prilagodjavanje_stat.png, id=192, 456.9873pt x 338.7054pt>
+File: slike/espb_prilagodjavanje_stat.png Graphic file (type png)
+<use slike/espb_prilagodjavanje_stat.png>
+Package pdftex.def Info: slike/espb_prilagodjavanje_stat.png  used on input lin
+e 263.
 (pdftex.def)             Requested size: 228.49309pt x 169.35228pt.
-<ucestalost_ucenja.png, id=193, 511.4307pt x 410.0118pt>
-File: ucestalost_ucenja.png Graphic file (type png)
-<use ucestalost_ucenja.png>
-Package pdftex.def Info: ucestalost_ucenja.png  used on input line 279.
+<slike/ucestalost_ucenja.png, id=193, 511.4307pt x 410.0118pt>
+File: slike/ucestalost_ucenja.png Graphic file (type png)
+<use slike/ucestalost_ucenja.png>
+Package pdftex.def Info: slike/ucestalost_ucenja.png  used on input line 279.
 (pdftex.def)             Requested size: 255.71472pt x 205.00539pt.
 
 
-[7 <./iskustvo_prilagodjavanje_stat.png> <./espb_prilagodjavanje_stat.png>]
-<strategije_ucenja_stat.png, id=202, 715.473pt x 425.4294pt>
-File: strategije_ucenja_stat.png Graphic file (type png)
-<use strategije_ucenja_stat.png>
-Package pdftex.def Info: strategije_ucenja_stat.png  used on input line 293.
+[7 <./slike/iskustvo_prilagodjavanje_stat.png> <./slike/espb_prilagodjavanje_st
+at.png>]
+<slike/strategije_ucenja_stat.png, id=202, 715.473pt x 425.4294pt>
+File: slike/strategije_ucenja_stat.png Graphic file (type png)
+<use slike/strategije_ucenja_stat.png>
+Package pdftex.def Info: slike/strategije_ucenja_stat.png  used on input line 2
+93.
 (pdftex.def)             Requested size: 357.73563pt x 212.71417pt.
 
 
-[8 <./ucestalost_ucenja.png> <./strategije_ucenja_stat.png>]
+[8 <./slike/ucestalost_ucenja.png> <./slike/strategije_ucenja_stat.png>]
 
 [9]
 (07_NavigacijaKrozNoveProgramskeJezikeIzazoviBarijereStrategijeSavladavanja_Bar
@@ -854,7 +856,7 @@ hanged.
  ) 
 Here is how much of TeX's memory you used:
  14623 strings out of 473568
- 239676 string characters out of 5714912
+ 240096 string characters out of 5714912
  829529 words of memory out of 5000000
  37573 multiletter control sequences out of 15000+600000
  570524 words of font info for 60 fonts, out of 8000000 for 9000

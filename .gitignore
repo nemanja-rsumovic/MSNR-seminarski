@@ -1,0 +1,56 @@
+*.aux
+*.bbl
+*.bcf
+*.blg
+*.brf
+*.fdb_latexmk
+*.fls
+*.lof
+*.log
+*.lot
+*.out
+*.run.xml
+*.toc
+*.synctex.gz
+*.synctex(busy)
+*.idx
+*.ind
+*.ilg
+*.nav
+*.snm
+*.vrb
+*.acn
+*.acr
+*.alg
+*.glg
+*.glo
+*.gls
+*.ist
+*.xdy
+
+# =========================
+# Latexmk
+# =========================
+
+latexmk
+latexmkrc
+
+# =========================
+# Temporary / editor files
+# =========================
+
+*~
+*.swp
+*.swo
+*.bak
+.DS_Store
+Thumbs.db
+
+# =========================
+# Build directories
+# =========================
+
+_build/
+build/
+out/
+
